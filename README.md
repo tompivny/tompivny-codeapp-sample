@@ -14,7 +14,10 @@ The solution references the code app with a `ProjectReference`. When you build t
 You need the .NET SDK and Node.js.
 
 ```
-dotnet build src/Contoso.Sample.Solution
+dotnet publish Contoso.Sample.slnx
 ```
 
-The output is `src/Contoso.Sample.Solution/bin/Debug/net472/Contoso.Sample.Solution.zip`.
+Outputs:
+
+- `src/Contoso.Sample.Solution/bin/Debug/net472/Contoso.Sample.Solution.zip` - the solution with the code app inside.
+- `src/Contoso.Sample.Solution/bin/Debug/Contoso.Sample.Solution.<version>.nupkg` - the same solution as a NuGet package.
