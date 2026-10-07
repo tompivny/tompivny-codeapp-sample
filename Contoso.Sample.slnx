@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Contoso.Sample.CodeApp/Contoso.Sample.CodeApp.csproj" />
+    <Project Path="src/Contoso.Sample.Solution/Contoso.Sample.Solution.csproj" />
+  </Folder>
+</Solution>

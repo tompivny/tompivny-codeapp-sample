@@ -1,0 +1,4 @@
+bin/
+obj/
+# regenerated on every build (AppVersion = build timestamp)
+src/Contoso.Sample.Solution/Declarations/CanvasApps/*.meta.xml
